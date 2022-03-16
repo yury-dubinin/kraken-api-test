@@ -1,0 +1,13 @@
+Given following prerequisites for this assignment:
+1. use max 2 hours
+2. runnable everywhere
+3. do not use already available API clients
+
+Cypress framework has been selected for the assignment,
+together with special Cypress API testing plug-in which allows nice interactions with APIs.
+Pure JavaScript was used to save time without implementation of any client for API.
+
+Unfortunately, even with specific plug-ins Cypress is not good for WebSockets testing.
+Only basic checks were implemented in tests just to show my understanding of JavaScript and used frameworks.
+i.e. Mocha assert used in tests, but Cypress also has it own way with 'should' keyword.
+
