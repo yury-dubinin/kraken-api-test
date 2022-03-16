@@ -15,3 +15,4 @@ Verify basic Kraken API features
 
 - Using built-in Mocha Spec test reporter
 - Screenshots on fail will be saved to `screenshots` folder
+- Console output <img width="853" alt="image" src="https://user-images.githubusercontent.com/62520712/158650686-8941dbbd-7ddb-49e5-8c4b-980b27175e5a.png">
