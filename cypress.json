@@ -1,0 +1,8 @@
+{
+  "baseUrl": "https://api.kraken.com/0/public",
+  "reporter": "junit",
+  "video": false,
+  "reporterOptions": {
+    "mochaFile": "./cypress/results/TEST-[hash].xml"
+  }
+}

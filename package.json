@@ -1,0 +1,23 @@
+{
+  "name": "kraken-api-test",
+  "version": "1.0.0",
+  "description": "Kraken API tests",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yury-dubinin/kraken-api-test.git"
+  },
+  "author": "Yury Dubinin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yury-dubinin/kraken-api-test/issues"
+  },
+  "homepage": "https://github.com/yury-dubinin/kraken-api-test#readme",
+  "devDependencies": {
+    "@bahmutov/cy-api": "^2.1.2",
+    "cypress": "^9.5.2"
+  }
+}
