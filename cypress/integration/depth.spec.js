@@ -30,7 +30,8 @@ describe('Verify API Depth endpoint', () => {
         cy.get('@body').then((body) =>
         {
             expect(body).property('error').exist
-            expect(body.error).to.contain('EQuery:Unknown asset pair')
+            expect(body.error).to.contain('EQuery:Unknown asset pair make it')
+            expect(body.error).to.contain('Make it fail')
             cy.log(`Error is ${body.error}`)
         })
     })

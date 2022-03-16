@@ -1,8 +1,7 @@
 {
   "baseUrl": "https://api.kraken.com/0/public",
-  "reporter": "junit",
-  "video": false,
-  "reporterOptions": {
-    "mochaFile": "./results/TEST-[hash].xml"
-  }
+  "screenshotsFolder": "./screenshots",
+  "reporter": "spec",
+  "video": false
+
 }
