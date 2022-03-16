@@ -3,5 +3,4 @@
   "screenshotsFolder": "./screenshots",
   "reporter": "spec",
   "video": false
-
 }
